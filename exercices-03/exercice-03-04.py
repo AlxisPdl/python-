@@ -5,3 +5,14 @@
 
 # réponse 3.4
 
+def moyenne(valeurs):
+    somme = 0
+
+    for valeur in valeurs:
+        somme += valeur
+
+    return somme / len(valeurs)
+
+my_number = [1, 2, 3, 5, 8, 13, 21]
+m = moyenne(my_number)
+print("moyenne des nombres:", m)

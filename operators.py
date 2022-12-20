@@ -102,3 +102,14 @@ result = not True
 print(result)
 result = not False 
 print(result)
+
+fruits = ['abricot', 'baie', 'cerise']
+result= 'ananas'in fruits
+print(result)
+result = 'cerise' in fruits
+print(result)
+
+for fruit in fruits:
+    print(fruit)
+
+
