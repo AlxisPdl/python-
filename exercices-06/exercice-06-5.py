@@ -4,3 +4,6 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.5
+
+my_list[1] = 123
+print(my_list)
