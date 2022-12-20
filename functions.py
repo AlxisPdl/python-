@@ -47,3 +47,18 @@ print(my_list)
 
 my_list = my_library.randint_list( 0, 100, 10)
 print(my_list)
+
+# ecrire une fonction qui accepte en pararmetre une liste et qui renvoie la moyenne de nombres de la liste
+
+# reponse exo apprenant
+
+def moyennelist(liste:list) -> float:     
+    somme = 0     
+    for i in range(len(liste)):         
+        somme += liste[i]
+        moyenne = somme/len(liste)  
+    
+    return moyenne 
+
+liste = [5,5,5,5,5] 
+print(moyennelist(liste))
